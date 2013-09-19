@@ -26,6 +26,7 @@ module Hominid
       protocol = @config[:secure] ? 'https' : 'http'
       @api_key = api_key
       @chimpApi = XMLRPC::Client.new2("#{protocol}://#{dc}.#{@config[:domain]}/#{@config[:api_version]}/", nil, @config[:timeout])
+      @chimpApi.http_header_extra = { 'accept-encoding' => 'identity' }
     end
 
     def method_missing(api_method, *args) # :nodoc:
