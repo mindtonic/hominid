@@ -1,6 +1,7 @@
 Note: The official {Mailchimp gem}[https://bitbucket.org/mailchimp/mailchimp-api-ruby/] is a better alternative to Hominid if you are starting a new project.
+This fork patches Hominid for use with Ruby 2.
 
-= Hominid {<img src="http://travis-ci.org/terra-firma/hominid.png" />}[http://travis-ci.org/terra-firma/hominid] {<img src="https://gemnasium.com/terra-firma/hominid.png" alt="Dependency Status" />}[https://gemnasium.com/terra-firma/hominid]
+= Hominid
 
 Hominid is a Ruby gem that provides a wrapper for interacting with {Mailchimp's}[http://eepurl.com/ew8J] MC, STS and Export API's. Check out the {Mandrill gem}[http://github.com/terra-firma/mandrill] if you are interested in working with the {Mandrill API}[http://mandrillapp.com/api/docs/index.html].
 
